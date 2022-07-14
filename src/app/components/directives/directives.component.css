@@ -1,0 +1,23 @@
+.backGroundTitle {
+    background-color: black;
+}
+
+.colorTitle {
+    color: white;
+}
+
+.underline-title {
+    text-decoration: underline;
+}
+
+.font-size {
+    font-size: 10px;
+}
+
+.font-family {
+    font-family: sans-serif;
+}
+
+.font-color{
+    color: blue;
+}

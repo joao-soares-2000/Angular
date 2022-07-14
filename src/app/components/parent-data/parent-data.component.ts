@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { NumberSymbol } from '@angular/common';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-parent-data',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent-data.component.css']
 })
 export class ParentDataComponent implements OnInit {
+  @Input() name: string = '';
+  @Input() userData!: {email: string, role: string}
+  @Input() userCar!: {name: string, engine: string, year: number}
 
   constructor() { }
 
