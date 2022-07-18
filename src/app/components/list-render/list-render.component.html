@@ -1,0 +1,11 @@
+<div class="aula">
+    <h3>
+        <ul>
+            <li *ngFor="let animal of animals">
+                Tipo: {{ animal.tipo }} Nome: {{ animal.nome }} 
+                <button (click)="showIdade(animal)"> Mostrar idade</button>
+            </li>
+        </ul>
+    </h3>
+    <h1>{{animalDetalhe}}</h1>
+</div>
