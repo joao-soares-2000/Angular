@@ -9,7 +9,6 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmiterComponent } from './components/emiter/emiter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
-import { EmiterBComponent } from './components/emiter-b/emiter-b.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ChangeNumberBComponent } from './components/change-number-b/change-number-b.component';
 
@@ -23,7 +22,6 @@ import { ChangeNumberBComponent } from './components/change-number-b/change-numb
     EventosComponent,
     EmiterComponent,
     ChangeNumberComponent,
-    EmiterBComponent,
     ListRenderComponent,
     ChangeNumberBComponent
   ],

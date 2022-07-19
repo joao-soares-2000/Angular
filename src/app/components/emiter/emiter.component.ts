@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./emiter.component.css']
 })
 export class EmiterComponent implements OnInit {
-  myNumber: number = 1;
+  myNumber: number = 0;
+  otherNumber: number = 0;
 
   constructor() { }
 
@@ -18,6 +19,6 @@ export class EmiterComponent implements OnInit {
   }
 
   ontrocaNumber(){
-    this.myNumber = ont
+    this.otherNumber = this.otherNumber + 1;
   }
 }
