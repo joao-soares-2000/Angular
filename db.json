@@ -5,5 +5,13 @@
       {"id": 3, "nome": "Frida", "tipo": "Dog",   "idade": 11 },
       {"id": 4, "nome": "Bob",   "tipo": "Horse", "idade": 2 },
       {"id": 5, "nome": "Paco",  "tipo": "Bird",  "idade": 1 }
+  ],
+
+  "pessoas": [
+    {"id": 1, "nome": "Joao", "tipo": "Humano",   "idade": 4 },
+    {"id": 2, "nome": "Caio",   "tipo": "Humano",   "idade": 10 },
+    {"id": 3, "nome": "Lucas", "tipo": "Humano",   "idade": 11 },
+    {"id": 4, "nome": "Valeria",   "tipo": "Humano", "idade": 2 },
+    {"id": 5, "nome": "jonny",  "tipo": "Humano",  "idade": 1 }
   ]
 }

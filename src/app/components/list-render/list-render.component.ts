@@ -11,10 +11,12 @@ export class ListRenderComponent implements OnInit {
 
 animalDetalhe = '';
 
-  animals: Animal[] = []
+  animals: Animal[] = [];
+  pessoas: Animal[] = [];
 
   constructor(private listService: ListService) {
     this.getAnimals();
+    this.getPessoas();
   }
 
   ngOnInit(): void {
@@ -30,6 +32,10 @@ removeAnimal (animal: Animal) {
 
 getAnimals(): void{
   this.listService.getAll().subscribe((animals) => (this.animals = animals))
+}
+
+getPessoas(): void{
+  this.listService.geTudo().subscribe((pessoas) => (this.pessoas = pessoas))
 }
 
 }

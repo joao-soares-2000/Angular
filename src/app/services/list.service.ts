@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 export class ListService {
 
   private apiUrl = 'http://localhost:3000/animals'
+  private apiUrl2 = 'http://localhost:3000/pessoas'
 
   constructor(private http: HttpClient) { }
 
@@ -18,6 +19,10 @@ export class ListService {
 
   getAll(): Observable<Animal[]> {
     return this.http.get<Animal[]>(this.apiUrl)
+  }
+
+  geTudo(): Observable <Animal[]> {
+    return this.http.get<Animal[]>(this.apiUrl2)
   }
 
 }
