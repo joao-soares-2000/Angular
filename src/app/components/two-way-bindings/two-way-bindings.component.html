@@ -6,5 +6,13 @@
         placeholder="Write your name here">
     </form>
 
-    <h3 *ngIf="name != ''">O nome é {{name}}</h3>
+    <h3 *ngIf="name != ''">The name is: {{name}}</h3>
+
+    <form>
+        <input type="text" [(ngModel)]="otherName"
+        name = "name"
+        placeholder="Esreva seu nome">
+    </form>
+
+    <p *ngIf="otherName != ''">O outro nome é: {{otherName}}</p>
 </div>
