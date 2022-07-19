@@ -11,6 +11,7 @@ import { EmiterComponent } from './components/emiter/emiter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { EmiterBComponent } from './components/emiter-b/emiter-b.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { ChangeNumberBComponent } from './components/change-number-b/change-number-b.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     EmiterComponent,
     ChangeNumberComponent,
     EmiterBComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    ChangeNumberBComponent
   ],
   imports: [
     BrowserModule

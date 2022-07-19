@@ -7,14 +7,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class ChangeNumberComponent implements OnInit {
   @Output() changeNumber: EventEmitter <any> = new EventEmitter();
-  @Output() trocaNumber: EventEmitter <any> = new EventEmitter();
 
   handleClick(){
     this.changeNumber.emit();
-  }
-
-  usaClick(){
-    this.trocaNumber.emit();
   }
 
   constructor() { }

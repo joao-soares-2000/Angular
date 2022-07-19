@@ -18,6 +18,6 @@ export class EmiterComponent implements OnInit {
   }
 
   ontrocaNumber(){
-    this.myNumber = this.myNumber+ 1 ;
+    this.myNumber = ont
   }
 }

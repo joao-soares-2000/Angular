@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EmiterBComponent } from './emiter-b.component';
+import { ChangeNumberBComponent } from './change-number-b.component';
 
-describe('EmiterBComponent', () => {
-  let component: EmiterBComponent;
-  let fixture: ComponentFixture<EmiterBComponent>;
+describe('ChangeNumberBComponent', () => {
+  let component: ChangeNumberBComponent;
+  let fixture: ComponentFixture<ChangeNumberBComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EmiterBComponent ]
+      declarations: [ ChangeNumberBComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EmiterBComponent);
+    fixture = TestBed.createComponent(ChangeNumberBComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
