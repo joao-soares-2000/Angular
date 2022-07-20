@@ -15,6 +15,7 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ChangeNumberBComponent } from './components/change-number-b/change-number-b.component';
 import { TwoWayBindingsComponent } from './components/two-way-bindings/two-way-bindings.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TwoWayBindingsComponent } from './components/two-way-bindings/two-way-b
     ChangeNumberComponent,
     ListRenderComponent,
     ChangeNumberBComponent,
-    TwoWayBindingsComponent
+    TwoWayBindingsComponent,
+    ItemDetailComponent
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
   providers: [],

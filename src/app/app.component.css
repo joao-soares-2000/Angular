@@ -1,3 +1,13 @@
 p {
     color: red;
 }
+
+.barraNavegacao a {
+    padding: 20px;
+}
+
+footer {
+    border-top: solid 1px black;
+    margin-top: 500px;
+    text-align: center;
+}

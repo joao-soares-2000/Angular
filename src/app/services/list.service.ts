@@ -25,4 +25,8 @@ export class ListService {
     return this.http.get<Animal[]>(this.apiUrl2)
   }
 
+  getItem(id: number): Observable<Animal> {
+    return this.http.get<Animal>(`${this.apiUrl}/${id}`);
+  }
+
 }
