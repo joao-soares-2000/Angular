@@ -27,7 +27,9 @@ showIdade(animal: Animal){
 }
 
 removeAnimal (animal: Animal) {
-  this.animals = this.listService.remove(this.animals, animal);
+  this.animals = this.animals.filter((a) => animal.nome !== a.nome)
+  this.listService.remove(animal.id).subscribe();
+
 }
 
 getAnimals(): void{
